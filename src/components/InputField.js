@@ -16,7 +16,7 @@ const InputField = () => {
   }
 
   return (
-    <div className='fixed bottom-0 left-0 right-0 pb-5 px-12 bg-primary flex items-center'>
+    <div className='fixed bottom-0 left-0 right-0 pb-4 px-12 bg-primary flex items-center'>
       <input
         type={'text'}
         className='w-full p-2 rounded-l-md'

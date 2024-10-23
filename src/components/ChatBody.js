@@ -14,7 +14,7 @@ const ChatBody = () => {
   }, [status, dispatch])
 
   return (
-    <div className='py-4 px-8'>
+    <div className='pt-4 pb-12 px-8'>
       {comments.map((comment, index) => (
         <Comment comment={comment} key={index} />
       ))}
